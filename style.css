@@ -7,10 +7,11 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
+  line-height: 1.6;
 }
 p {
   margin-bottom: 30px;
-  font-size:0.8em;
+  font-size:1.5em;
 }
 body{
   font-family: 'Work Sans', sans-serif;
@@ -72,15 +73,17 @@ nav ul li a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: minmax(20px auto);
-    grid-gap: 2em;
+    grid-gap: 2.5em;
+    row-gap:1.8em;
     justify-content: start;
     align-items: center;
     margin-left: 29px;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.6rem;
     color: rgb(39, 37, 37);
+  
+    
 }
 .h1{ 
   grid-column: 1/-1;
@@ -88,27 +91,30 @@ nav ul li a{
   font-family: 'Rowdies', cursive;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.6rem;
   color: rgb(26, 25, 25);
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   align-self: start;
   justify-self:start;
   width:auto;
+  line-height: 80px;
+  font-size: 2.2rem;
 }  
 
 .intro .h3 {
-  font-family: SF Pro Display,sans-serif;
+  font-family: 'Rowdies', cursive;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.8rem;
   color: rgb(4, 68, 18);
   margin-bottom: 1.5rem;
   text-transform: uppercase;
+  font-size: 1.8rem;
 }
 .p {
   grid-column: 1;
   grid-row: 2;
   align-self:start;
+  font-size:1.2em;
+  
 }
 
 .img{ grid-column: 2;
@@ -166,15 +172,16 @@ nav ul li a{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: minmax(20px auto);
     grid-gap: 2em;
+    grid-row: 1.2em;
     justify-content: start;
     align-items: center;
     margin-left: 29px;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.6rem;
     color: rgb(39, 37, 37);
     margin-bottom: 2.2rem;
+    margin-top:0.8 rem;
   }
 .h1{ 
   grid-column: 1;
@@ -184,26 +191,25 @@ nav ul li a{
   font-family: 'Rowdies', cursive;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.6rem;
   color: rgb(26, 25, 25);
   margin-top: 1.6rem;
   width:auto;
+  font-size: 1.8rem;
 }
 .intro .h3 {
   font-family:'Rowdies', cursive;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 2.1rem;
   color: rgb(4, 68, 18);
   margin-bottom: 2.5rem;
   text-transform: uppercase;
+  font-size: 1.3rem;
 }
 .p{ grid-column: 1;
   grid-row: 2;
-  font-size:x-large;
   line-height: 1em;
   align-self: start;
+  font-size: 1 rem;
 }
 .img{ grid-column: 2;
   grid-row: 2/4;
@@ -234,15 +240,14 @@ nav ul li a{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: minmax(20px auto);
-    grid-gap: 2em;
     justify-content: space-aroundcenter;
     margin-left: 29px;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.6rem;
     color: rgb(39, 37, 37);
     margin-bottom: 3.2rem;
+    margin-top:1 rem;
   }
 .h1{
   grid-column: 1;
@@ -250,26 +255,26 @@ nav ul li a{
   font-family: 'Rowdies', cursive;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.6rem;
   width:auto;
   color: rgb(26, 25, 25);
   margin-top: 1.6rem;
   width: auto;
+  font-size:1.4rem;
 }
 .intro .h3 {
   font-family:'Rowdies', cursive;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.8rem;
   line-height: 2.1rem;
   color: rgb(4, 68, 18);
   margin-bottom: 2.5rem;
   text-transform: uppercase;
+  font-size: 1.4rem;
 }
 .p{ grid-column: 1;
   grid-row: 2;
-  font-size: large;
   line-height: 1em;
+  font-size: 0.8rem;
 }
 .img{ grid-column: 1;
   grid-row: 3;
@@ -330,6 +335,7 @@ body {
 .content h1 {
   margin-bottom: 30px;
   font-family: 'Rowdies', cursive;
+  line-height: 80px;
 
 }
 .content ul li{
@@ -484,7 +490,7 @@ fieldset {
   font-size: 16px;
   text-align: center;
   padding: 30px 0;
-  height: 8rem;
+  height: auto;
 }
 
 #footer p {
@@ -498,6 +504,3 @@ fieldset {
   margin: 0 0 5px 0;
 }
 
-#footer .credits {
-  font-size: 13px;
-}
